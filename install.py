@@ -26,7 +26,7 @@ def menu(title,opt,funcalls):
     menuopt=opt
     i=0
     while not i == menusel + 1:
-        print(str(i + 1) + " " + opt[i])
+        print(str(i + 1) + ": " + opt[i])
         i += 1
     print("\nWhich Option Would You Like?\n")
     optsel=input("")
