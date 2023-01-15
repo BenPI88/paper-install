@@ -24,8 +24,8 @@ def menu(title,opt,funcalls):
     print(title + "\n\n")
     menusel=0
     menuopt=opt
-    print(str(i) + ": " + opt[1])
-    print(str(i) + ": " + opt[2])
+    print("1: " + opt[1])
+    print("2: " + opt[2])
     print("\nWhich Option Would You Like?\n")
     optsel=input("")
     optsel = optsel - 1
