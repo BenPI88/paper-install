@@ -48,5 +48,5 @@ def auto():
     time.sleep(2)
     print("You have installed Paper on your computer! Good work!\n")
     time.sleep(2)
-    menu("Would You Like To Put Start Scripts In ~/minecraft ?",{Yes, No},{os.system(cp run.sh ~/minecraft/run.sh && cp run-headless.sh ~/minecraft/run-headless.sh), exit()})
-menu("\nWelcome To BenPI88's Paper Installer!\n\nWould You Like To Install Paper Automatically, Or Stepped?", {"Automatically", "Stepped"}, {auto(), step()})
+    menu("Would You Like To Put Start Scripts In ~/minecraft ?",{Yes, No},{"os.system(cp run.sh ~/minecraft/run.sh && cp run-headless.sh ~/minecraft/run-headless.sh)", "exit()"})
+menu("\nWelcome To BenPI88's Paper Installer!\n\nWould You Like To Install Paper Automatically, Or Stepped?", {"Automatically", "Stepped"}, {"auto()", "step()"})
