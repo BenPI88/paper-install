@@ -28,7 +28,7 @@ def step():
     exit()
 def auto():
     print("Dropping Server Files...")
-    os.system("cp paper.jar ~/paper.jar && cd ~ && mkdir minecraft && cp ~/paper.jar ~/minecraft/paper.jar && rm -rf ~/paper.jar")
+    os.system("cp ~/Downloads/paper.zip ~/paper.zip && cd ~ && mkdir minecraft && cp ~/paper.zip ~/minecraft/paper.zip && rm -rf ~/paper.zip && unzip ~/minecraft/paper.zip && rm -rf paper.zip && cp ~/minecraft/paper-1.19.3-378.jar ~/minecraft/paper.jar && rm -rf ~/minecraft/paper-1.19.3-378.jar")
     print("Populating Server Files...")
     os.system("java -Xms2G -Xmx2G -jar paper.jar --nogui")
     print("Please Click Enter To Accept The EULA")
