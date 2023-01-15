@@ -38,5 +38,6 @@ def auto():
     print(".d8888. db    db  .o88b.  .o88b. d88888b .d8888. .d8888. db \n88'  YP 88    88 d8P  Y8 d8P  Y8 88'     88'  YP 88'  YP 88 \n`8bo.   88    88 8P      8P      88ooooo `8bo.   `8bo.   YP \n  `Y8b. 88    88 8b      8b      88~~~~~   `Y8b.   `Y8b.    \ndb   8D 88b  d88 Y8b  d8 Y8b  d8 88.     db   8D db   8D db \n`8888Y' ~Y8888P'  `Y88P'  `Y88P' Y88888P `8888Y' `8888Y' YP")
     time.sleep(2)
     print("You have installed Paper on your computer! Good work!\n")
+    time.sleep(2)
     menu("Would You Like To Put Start Scripts In ~/minecraft ?",{Yes, No},{os.system(cp run.sh ~/minecraft/run.sh && cp run-headless.sh ~/minecraft/run-headless.sh), exit()})
 menu("\nWelcome To BenPI88's Paper Installer!\n\nWould You Like To Install Paper Automatically, Or Stepped?", {"Automatically", "Stepped"}, {auto(), step()})
